@@ -1,5 +1,4 @@
 #include <opencv2/opencv.hpp>
-
 using namespace cv;
 #define WINDOW_NAME "Drawing Rectangle"
 
