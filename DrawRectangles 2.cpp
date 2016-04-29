@@ -32,7 +32,7 @@ void on_MouseHandle(int event, int x, int y, int flags, void* param) {
 		if (g_bDrawingBox) {
 			g_rectangle.width = x - g_rectangle.x;
 			g_rectangle.height = y - g_rectangle.y;
-			DrawRectangle(tempImage, g_rectangle);
+			DrawRectangle(image, g_rectangle);
 		}
 	}
 		break;
